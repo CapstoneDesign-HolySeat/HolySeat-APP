@@ -1,0 +1,11 @@
+###
+GET http://localhost:4000/cafe/시연이의%20카페
+
+###
+POST http://localhost:4000/onlogin
+Content-Type: application/json
+
+{
+"user_id": "강시연",
+"user_pw": "1234"
+}
